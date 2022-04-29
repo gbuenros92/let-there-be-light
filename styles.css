@@ -1,0 +1,47 @@
+body {
+    background-color: #000814;
+}
+
+#container {
+    display: flex;
+    height: 95vh;
+    width: 99vw;
+}
+
+#switch, #bulb {
+    height: 95vh;
+    width: 50vw;
+}
+
+#switch-container {
+    padding: 30px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f4f1de;
+}
+
+#switch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    width: 100px;
+    margin: auto;
+    border: 12px solid #f4f1de;
+    border-radius: 15px;
+}
+
+.switch-position-on {
+    height: 80px;
+    margin: 5px;
+}
+
+.switch-position-off {
+    height: 80px;
+    margin: 5px;
+    background-color: #f4f1de;
+}
+
+#bulb {
+    background: url('images/lightoff.png') no-repeat center;
+}
